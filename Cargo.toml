@@ -1,0 +1,19 @@
+[package]
+name = "hello_rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+# Cross-platform audio
+sdl2 = "0.36"
+
+# Audio processing
+dasp = "0.11"	# Digital Audio Signal Processings
+hound = "3.5"	# WAV file IO
+cpal = "0.15"	# Cross-platform IO
+
+# Math for audio
+rustfft = "6.0"  # FFT implementation
+
+
